@@ -35,7 +35,7 @@ if (strtolower($message['text']) == "dzi" && $message['text'] == "ค่าส�
         'messages' => array(
             array(
                 'type' => 'text', // 訊息類型 (文字)
-                'text' => 'ค่าสีเขียวของ Grab คือ </br> RGB: 0 157 59 </br> CMYK: 90 0 100 0 </br> HEX: # ' // 回復訊息
+                'text' => 'ค่าสีเขียวของ Grab คือ \n\n RGB: 0 157 59 \n CMYK: 90 0 100 0 \n HEX: # ' // 回復訊息
             )
         )
     ));
