@@ -36,11 +36,6 @@ if (strtolower($message['text']) == "dzi_ค่าสีเขียว" || $mes
             array(
                 'type' => 'text',
                 'text' => 'ค่าสีเขียวของ Grab คือ'
-                'text' => 'RGB: 0 157 59'
-                'text' => 'CMYK: 90 0 100 0'
-                'text' => 'HEX: #'
-                'text' => ''
-                'text' => 'ดูสีอื่นๆ เพิ่มเติมได้จากรูปค่ะ'
                 
             )    
         )               
