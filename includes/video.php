@@ -18,7 +18,7 @@
 }
 ==============================
 */
-if (strtolower($message['text']) == "video" || $message['text'] == "視頻" || $message['text'] == "影片"){
+if (strtolower($message['text']) == "video" || $message['text'] == "視頻" || $message['text'] == "vdo"){
     $client->replyMessage(array(
         'replyToken' => $event['replyToken'],
         'messages' => array(
