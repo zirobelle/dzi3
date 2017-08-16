@@ -17,7 +17,7 @@
 }
 ==============================
 */
-if (strtolower($message['text']) ++ "ดี" || $message['text'] == "ดีครับ" ){
+if (strtolower($message['text']) == "ดี" || $message['text'] == "ดีครับ" ){
     $client->replyMessage(array(
         'replyToken' => $event['replyToken'],
         'messages' => array(
@@ -29,7 +29,7 @@ if (strtolower($message['text']) ++ "ดี" || $message['text'] == "ดีค�
     ));
 }
 
-else if (strtolower($message['text']) == "dzi" || $message['text'] == "ค่าสี" || $message['text'] == "เขียว"){
+if (strtolower($message['text']) == "dzi" || $message['text'] == "ค่าสี" || $message['text'] == "เขียว"){
     $client->replyMessage(array(
         'replyToken' => $event['replyToken'],
         'messages' => array(
