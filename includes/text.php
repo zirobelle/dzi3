@@ -34,8 +34,17 @@ if (strtolower($message['text']) == "dzi แสดงค่าสีเขีย
         'replyToken' => $event['replyToken'],
         'messages' => array(
             array(
-                'type' => 'text', // 訊息類型 (文字)
-                'text' => 'ค่าสีเขียวของ Grab คือ \n\n RGB: 0 157 59 \n CMYK: 90 0 100 0 \n HEX: # ' // 回復訊息
+                'type' => 'text',
+                'text' => 'ค่าสีเขียวของ Grab คือ'
+                'text' => 'RGB: 0 157 59'
+                'text' => 'CMYK: 90 0 100 0'
+                'text' => 'HEX: #'
+                'text' => ''
+                'text' => 'ดูสีอื่นๆ เพิ่มเติมได้จากรูปค่ะ'
+                
+                'type' => 'image',
+                'originalContentUrl' => 'https://gallery.mailchimp.com/0bbff1e4457f7e08892c68f1a/images/119d68eb-367f-4d33-aeb0-7e8e9cd192ad.png', //
+                'previewImageUrl' => 'https://gallery.mailchimp.com/0bbff1e4457f7e08892c68f1a/images/119d68eb-367f-4d33-aeb0-7e8e9cd192ad.png' //
             )
         )
     ));
