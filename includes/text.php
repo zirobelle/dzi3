@@ -22,8 +22,9 @@ if (strtolower($message['text']) == "text" || $message['text'] == "Hi"){
         'replyToken' => $event['replyToken'],
         'messages' => array(
             array(
-                'type' => 'text', // 訊息類型 (文字)
-                'text' => 'Hello, world!' // 回復訊息
+                'type' => 'video', // 訊息類型 (影片)
+                'originalContentUrl' => 'https://api.reh.tw/line/bot/example/assets/videos/example.mp4', // 回復影片
+                'previewImageUrl' => 'https://api.reh.tw/line/bot/example/assets/images/example.jpg' // 回復的預覽圖片
             )
         )
     ));
