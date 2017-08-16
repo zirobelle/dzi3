@@ -29,7 +29,7 @@ if (strtolower($message['text']) == "ดี" || $message['text'] == "ดีค�
     ));
 }
 
-if (strtolower($message['text']) == "dzi แสดงค่าสีเขียว" || $message['text'] == "dzi ค่าสีเขียว" || $message['text'] == "dzi อยากรู้ค่าสีเขียว" || $message['text'] == "dzi อยากรู้ค่าสี"){
+if (strtolower($message['text']) == "dzi_ค่าสีเขียว" || $message['text'] == "dzi_ค่าสี" ){
     $client->replyMessage(array(
         'replyToken' => $event['replyToken'],
         'messages' => array(
