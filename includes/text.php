@@ -28,4 +28,20 @@ if (strtolower($message['text']) == "Hi" || $message['text'] == "สวัสด
         )
     ));
 }
+
+f (strtolower($message['text']) == "dzi" || $message['text'] == "ค่าสี" || $message['text'] == "เขียว"){
+    $client->replyMessage(array(
+        'replyToken' => $event['replyToken'],
+        'messages' => array(
+            array(
+                'type' => 'text', // 訊息類型 (文字)
+                'text' => 'ค่าสีเขียวของ Grab คือ </br> RGB: 0 157 59 </br> CMYK: 90 0 100 0 </br> HEX: # ' // 回復訊息
+            )
+        )
+    ));
+}
+
+
+
+
 ?>
