@@ -17,7 +17,7 @@
 }
 ==============================
 */
-if (strtolower($message['text']) == "Hi" || $message['text'] == "สวัสดี" || $message['text'] == "ดี"){
+if (  (strtolower($message['text']) == "Hi")     ||     (strtolower($message['text']) == "Hi2")    ||   (strtolower($message['text']) == "Hi3")    {
     $client->replyMessage(array(
         'replyToken' => $event['replyToken'],
         'messages' => array(
