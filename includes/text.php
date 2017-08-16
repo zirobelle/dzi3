@@ -30,6 +30,9 @@ if (strtolower($message['text']) == "ดี" || $message['text'] == "ดีค�
 }
 
 if (strtolower($message['text']) == "dzi_ค่าสีเขียว" || $message['text'] == "dzi_ค่าสี" ){
+    
+    
+    
     $client->replyMessage(array(
         'replyToken' => $event['replyToken'],
         'messages' => array(
@@ -40,6 +43,21 @@ if (strtolower($message['text']) == "dzi_ค่าสีเขียว" || $mes
             )    
         )               
     ));
+    
+    $client->replyMessage(array(
+        'replyToken' => $event['replyToken'],
+        'messages' => array(
+            array(
+                'type' => 'text',
+                'text' => 'ค่าสีเขียวของ Grab คือ'
+                
+            )    
+        )               
+    ));
+    
+    
+    
+    
 }
 
 
