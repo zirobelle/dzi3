@@ -46,6 +46,14 @@ if (strtolower($message['text']) == "dzi_ค่าสีเขียว" || $mes
                 'originalContentUrl' => 'https://gallery.mailchimp.com/0bbff1e4457f7e08892c68f1a/images/119d68eb-367f-4d33-aeb0-7e8e9cd192ad.png', //
                 'previewImageUrl' => 'https://gallery.mailchimp.com/0bbff1e4457f7e08892c68f1a/images/119d68eb-367f-4d33-aeb0-7e8e9cd192ad.png' //
             )
+            
+            array(
+                 'type' => 'image',
+                'originalContentUrl' => 'https://gallery.mailchimp.com/0bbff1e4457f7e08892c68f1a/images/119d68eb-367f-4d33-aeb0-7e8e9cd192ad.png', //
+                'previewImageUrl' => 'https://gallery.mailchimp.com/0bbff1e4457f7e08892c68f1a/images/119d68eb-367f-4d33-aeb0-7e8e9cd192ad.png' //
+            )
+            
+            
         )
     ));
 }
