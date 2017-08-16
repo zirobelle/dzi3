@@ -17,13 +17,13 @@
 }
 ==============================
 */
-if (strtolower($message['text']) == "text" || $message['text'] == "Hi"){
+if (strtolower($message['text']) == "Hi" || $message['text'] == "สวัสดี" || $message['text'] == "ดี"){
     $client->replyMessage(array(
         'replyToken' => $event['replyToken'],
         'messages' => array(
             array(
                 'type' => 'text', // 訊息類型 (文字)
-                'text' => 'Hello, world!' // 回復訊息
+                'text' => 'สวัสดีค่ะ' // 回復訊息
             )
         )
     ));
