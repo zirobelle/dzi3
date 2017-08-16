@@ -9,14 +9,13 @@
  * 官方文檔：https://devdocs.line.me/en/
  */
 error_reporting(0); // 不顯示錯誤 (Debug 時請註解掉)
-date_default_timezone_set("Asia/Taipei"); // 設定時區為台北時區
+date_default_timezone_set("Asia/Bangkok"); // 設定時區為台北時區
 
 require_once('LINEBotTiny.php');
 
 // Channel Access Token
 $channelAccessToken = 'P9FfTcel7HVhdADoq7F3uExmCFaIguyGUW0oy5l/DFUTXx0NTFjbm6C2LPaiE274Sa5BIdTAi17Gz1QC/BpYB939lTFCmp+sJH+E38BUPaQtyfZiVCjhDAQcwSwQ+TjsbEK08ykS1RJ1PtQOftGsZwdB04t89/1O/w1cDnyilFU=';
-$channelSecret = '	
-83961f6bd9b37c2ef07249f67cda148a'; // Channel Secret
+$channelSecret = '83961f6bd9b37c2ef07249f67cda148a'; // Channel Secret
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 foreach ($client->parseEvents() as $event) {
