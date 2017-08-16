@@ -37,26 +37,24 @@ if (strtolower($message['text']) == "dzi_ค่าสีเขียว" || $mes
         'replyToken' => $event['replyToken'],
         'messages' => array(
             array(
+                
+                
                 'type' => 'text',
                 'text' => 'ค่าสีเขียวของ Grab คือ'
                 
-            )    
-        )               
-    ));
-    
-    $client2->replyMessage(array(
-        'replyToken' => $event['replyToken'],
-        'messages' => array(
-            array(
+                ,
+                
                 'type' => 'text',
                 'text' => 'ค่าสีเขียวของ Grab คือ2'
-                
+
+
+
             )    
         )               
     ));
     
-    
-    
+   
+ 
     
 }
 
