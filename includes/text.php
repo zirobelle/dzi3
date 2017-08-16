@@ -40,13 +40,7 @@ if (strtolower($message['text']) == "dzi_ค่าสีเขียว" || $mes
                 
                 
                 'type' => 'text',
-                'text' => 'ค่าสีเขียวของ Grab คือ'
-                
-                ,
-                
-                'type' => 'text',
-                'text' => 'ค่าสีเขียวของ Grab คือ2'
-
+                'text' => 'ค่าสีเขียวของ  \n   Grab คือ'
 
 
             )    
