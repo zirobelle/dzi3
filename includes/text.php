@@ -44,12 +44,12 @@ if (strtolower($message['text']) == "dzi_ค่าสีเขียว" || $mes
         )               
     ));
     
-    $client->replyMessage(array(
+    $client2->replyMessage(array(
         'replyToken' => $event['replyToken'],
         'messages' => array(
             array(
                 'type' => 'text',
-                'text' => 'ค่าสีเขียวของ Grab คือ'
+                'text' => 'ค่าสีเขียวของ Grab คือ2'
                 
             )    
         )               
