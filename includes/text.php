@@ -37,15 +37,37 @@ if (strtolower($message['text']) == "dzi_ค่าสีเขียว" || $mes
         'replyToken' => $event['replyToken'],
         
         
-        "messages":[
-        {
-            "type":"text",
-            "text":"Hello, user"
-        },
-        {
-            "type":"text",
-            "text":"May I help you?"
-        }
+       'messages' [  
+
+           {
+         => array(
+            array(
+                
+                
+                'type' => 'text',
+                'text' => 'ค่าสีเขียวของ'
+                
+            )    
+        )      
+             
+           }
+           ,
+           {
+         => array(
+            array(
+                
+                
+                'type' => 'text',
+                'text' => 'ค่าสีเขียวของ'
+                
+            )    
+        )      
+             
+           }
+           
+                   
+        ]
+        
         
         
         
