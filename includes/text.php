@@ -32,41 +32,15 @@ if (strtolower($message['text']) == "ดี" || $message['text'] == "ดีค�
 if (strtolower($message['text']) == "dzi_ค่าสีเขียว" || $message['text'] == "dzi_ค่าสี" ){
     
     
-    
-    $client->replyMessage(array(
+       $client->replyMessage(array(
         'replyToken' => $event['replyToken'],
-        
-        
-       'messages' [  
-
-           {
-         => array(
+        'messages' => array(
             array(
-                
-                
-                'type' => 'text',
-                'text' => 'ค่าสีเขียวของ'
-                
-            )    
-        )      
-             
-           }
-           ,
-           {
-         => array(
-            array(
-                
-                
-                'type' => 'text',
-                'text' => 'ค่าสีเขียวของ'
-                
-            )    
-        )      
-             
-           }
-           
-                   
-        ]
+                'type' => 'text', // 訊息類型 (文字)
+                'text' => 'สวัสดีค่ะ' // 回復訊息
+            )
+        )
+      
         
         
         
