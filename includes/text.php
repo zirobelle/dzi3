@@ -37,9 +37,11 @@ if (strtolower($message['text']) == "dzi_ค่าสีเขียว" || $mes
         'messages' => array(
             array(
                 
-                
-                'type' => 'text',
-                'text' => 'ค่าสีเขียวของ'
+               'type' => 'text', // 訊息類型 (位置)
+                'title' => 'Example location', // 回復標題
+                'text' => 'xxxxxxxxxxxxxx', // 回復地址
+                'latitude' => 22.653742, // 地址緯度
+                'longitude' => 120.32652400000006 // 地址經度
                 
             )    
         )               
