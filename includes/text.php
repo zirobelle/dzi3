@@ -37,9 +37,14 @@ if (strtolower($message['text']) == "dzi_ค่าสีเขียว" || $mes
         'messages' => array(
             array(
                 
-               'type' => 'text',
-                'text' => 'xxxxxxxxxxxxxx',
-                'text' => 'xxxxxxxxxxxxxx'
+               {
+            "type":"text",
+            "text":"Hello, user"
+        },
+        {
+            "type":"text",
+            "text":"May I help you?"
+        }
                 
                 
             )    
