@@ -37,14 +37,24 @@ if (strtolower($message['text']) == "dzi_ค่าสีเขียว" || $mes
         'messages' => array(
             array(
                 
-               {
-            "type":"text",
-            "text":"Hello, user"
-        },
-        {
-            "type":"text",
-            "text":"May I help you?"
-        }
+             "type": "template",
+  "altText": "this is a confirm template",
+  "template": {
+      "type": "confirm",
+      "text": "Are you sure?",
+      "actions": [
+          {
+            "type": "message",
+            "label": "Yes",
+            "text": "yes"
+          },
+          {
+            "type": "message",
+            "label": "No",
+            "text": "no"
+          }
+      ]
+  }
                 
                 
             )    
