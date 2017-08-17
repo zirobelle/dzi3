@@ -26,13 +26,7 @@ if (strtolower($message['text']) == "ดี" || $message['text'] == "ดีค�
                 'text' => 'สวัสดีค่ะ' // 回復訊息
             )
         )
-    ));
-}
-
-
-else if (strtolower($message['text']) == "ดี" || $message['text'] == "ดีครับ" ){
-    
-     $client->replyMessage(array(
+        
         'replyToken' => $event['replyToken'],
         'messages' => array(
             array(
@@ -40,11 +34,11 @@ else if (strtolower($message['text']) == "ดี" || $message['text'] == "ดี
                 'text' => 'สวัสดีค่ะ' // 回復訊息
             )
         )
+        
+        
     ));
-    
-   
-    
 }
+
 
 ?>
 
