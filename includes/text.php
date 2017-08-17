@@ -28,31 +28,26 @@ if (strtolower($message['text']) == "ดี" || $message['text'] == "ดีค�
         )
     ));
 }
-
 if (strtolower($message['text']) == "dzi_ค่าสีเขียว" || $message['text'] == "dzi_ค่าสี" ){
     
     
-       $client->replyMessage(array(
+    
+    $client->replyMessage(array(
         'replyToken' => $event['replyToken'],
         'messages' => array(
             array(
+                
+                
                 'type' => 'text',
-                'text' => '  "Hello"  '.'Hi'\n'\n'.'DDDDD'
-            )
-        )
-      
-        
-        
-        
-        
+                'text' => 'ค่าสีเขียวของ'
+                
+            )    
+        )               
     ));
     
    
  
     
 }
-
-
-
-
 ?>
+
