@@ -27,43 +27,21 @@ if (strtolower($message['text']) == "ดี" || $message['text'] == "ดีค�
             )
         )
     ));
-}
-if (strtolower($message['text']) == "dzi_ค่าสีเขียว" || $message['text'] == "dzi_ค่าสี" ){
-    
-    
     
     $client->replyMessage(array(
         'replyToken' => $event['replyToken'],
         'messages' => array(
             array(
-                
-             "type": "template",
-  "altText": "this is a confirm template",
-  "template": {
-      "type": "confirm",
-      "text": "Are you sure?",
-      "actions": [
-          {
-            "type": "message",
-            "label": "Yes",
-            "text": "yes"
-          },
-          {
-            "type": "message",
-            "label": "No",
-            "text": "no"
-          }
-      ]
-  }
-                
-                
-            )    
-        )               
+                'type' => 'text', // 訊息類型 (文字)
+                'text' => 'สวัสดีค่ะ' // 回復訊息
+            )
+        )
     ));
     
-   
- 
+    
+    
     
 }
+
 ?>
 
