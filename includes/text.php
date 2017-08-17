@@ -25,16 +25,7 @@ if (strtolower($message['text']) == "ดี" || $message['text'] == "ดีค�
                 'type' => 'text', // 訊息類型 (文字)
                 'text' => 'สวัสดีค่ะ' // 回復訊息
             )
-        )
-        
-        'replyToken' => $event['replyToken'],
-        'messages' => array(
-            array(
-                'type' => 'text', // 訊息類型 (文字)
-                'text' => 'สวัสดีค่ะ' // 回復訊息
-            )
-        )
-        
+        )  
         
     ));
 }
