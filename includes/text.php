@@ -36,8 +36,8 @@ if (strtolower($message['text']) == "dzi_ค่าสีเขียว" || $mes
         'replyToken' => $event['replyToken'],
         'messages' => array(
             array(
-                'type' => 'text', // 訊息類型 (文字)
-                'text' => 'สวัสดีค่ะ' // 回復訊息
+                'type' => 'text',
+                'text' => '  "Hello"  '.'Hi'
             )
         )
       
