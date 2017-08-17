@@ -35,15 +35,20 @@ if (strtolower($message['text']) == "dzi_ค่าสีเขียว" || $mes
     
     $client->replyMessage(array(
         'replyToken' => $event['replyToken'],
-        'messages' => array(
-            array(
-                
-                
-                'type' => 'text',
-                'text' => 'ค่าสีเขียวของ'
-                
-            )    
-        )               
+        
+        
+        "messages":[
+        {
+            "type":"text",
+            "text":"Hello, user"
+        },
+        {
+            "type":"text",
+            "text":"May I help you?"
+        }
+        
+        
+        
     ));
     
    
