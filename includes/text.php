@@ -24,6 +24,10 @@ if (strtolower($message['text']) == "ดี" || $message['text'] == "ดีค�
             array(
                 'type' => 'text', // 訊息類型 (文字)
                 'text' => 'สวัสดีค่ะ' // 回復訊息
+            ),
+            array(
+                'type' => 'text', // 訊息類型 (文字)
+                'text' => 'สวัสดีค่ะ2' // 回復訊息
             )
         )  
         
