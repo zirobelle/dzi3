@@ -30,7 +30,7 @@ foreach ($client->parseEvents() as $event) {
                     require_once('includes/audio.php'); // Type: Audio
                     require_once('includes/location.php'); // Type: Location
                     require_once('includes/sticker.php'); // Type: Sticker
-                //    require_once('includes/imagemap.php'); // Type: Imagemap
+                    require_once('includes/imagemap.php'); // Type: Imagemap
                     require_once('includes/template.php'); // Type: Template
                     break;
                 default:
