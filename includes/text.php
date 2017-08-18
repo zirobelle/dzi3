@@ -82,7 +82,7 @@ if
 RGB : 0 157 59
 CMYK : 90 0 100 0
 Hex : #009d3b
-สามารถดูชุดสีเพิ่มเติม ได้จากรูปด้านล่างนะคะ 0x100041'
+สามารถดูชุดสีเพิ่มเติม ได้จากรูปด้านล่างนะคะ (0x100041)'
             ),
             array(
                 'type' => 'image',
@@ -93,6 +93,29 @@ Hex : #009d3b
     ));
 }
 
+///////////////////  Greeting  /////////////////////
+
+if
+(strtolower($message['text']) == "ดี"
+
+|| $message['text'] == "ดีครับ" )
+|| $message['text'] == "Hello" )
+|| $message['text'] == "hello" )
+|| $message['text'] == "Hi" )
+|| $message['text'] == "hi" )
+|| $message['text'] == "ดีค่ะ" )
+
+{
+    $client->replyMessage(array(
+        'replyToken' => $event['replyToken'],
+        'messages' => array(
+            array(
+                'type' => 'text',
+                'text' => 'สวัสดีค่ะ 0x100005 '
+            )
+        )
+    ));
+}
 
 
 
