@@ -30,7 +30,7 @@ if (strtolower($message['text']) == "ดี" || $message['text'] == "ดีค�
                 'originalContentUrl' => 'https://api.reh.tw/line/bot/example/assets/images/example.jpg', // 回復圖片
                 'previewImageUrl' => 'https://api.reh.tw/line/bot/example/assets/images/example.jpg' // 回復的預覽圖片
             )
-            )
+            
             
             
         )  
