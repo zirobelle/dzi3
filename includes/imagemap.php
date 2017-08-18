@@ -44,13 +44,13 @@
 }
 ==============================
 */
-if (strtolower($message['text']) == "imagemap" || $message['text'] == "圖像地圖" || $message['text'] == "圖片地圖"){
+if (strtolower($message['text']) == "command"){
     $client->replyMessage(array(
         'replyToken' => $event['replyToken'],
         'messages' => array(
             array(
                 'type' => 'imagemap', // 訊息類型 (圖片地圖)
-                'baseUrl' => 'https://api.reh.tw/line/bot/example/assets/images/example', // 圖片網址 (可調整大小 240px, 300px, 460px, 700px, 1040px)
+                'baseUrl' => 'https://gallery.mailchimp.com/0bbff1e4457f7e08892c68f1a/images/1e84c886-ed11-4288-b4dc-7df87721d04b.png', // 圖片網址 (可調整大小 240px, 300px, 460px, 700px, 1040px)
                 'altText' => 'Example imagemap', // 替代文字
                 'baseSize' => array(
                     'height' => 1040, // 圖片寬
@@ -59,7 +59,7 @@ if (strtolower($message['text']) == "imagemap" || $message['text'] == "圖像地
                 'actions' => array(
                     array(
                         'type' => 'uri', // 類型 (網址)
-                        'linkUri' => 'https://github.com/GoneTone/line-example-bot-php', // 連結網址
+                        'linkUri' => '#', // 連結網址
                         'area' => array(
                             'x' => 0, // 點擊位置 X 軸
                             'y' => 0, // 點擊位置 Y 軸
