@@ -50,7 +50,7 @@ if (strtolower($message['text']) == "command"){
         'messages' => array(
             array(
                 'type' => 'imagemap', // 訊息類型 (圖片地圖)
-                'baseUrl' => 'https://gallery.mailchimp.com/0bbff1e4457f7e08892c68f1a/images/1e84c886-ed11-4288-b4dc-7df87721d04b.png', // 圖片網址 (可調整大小 240px, 300px, 460px, 700px, 1040px)
+                'baseUrl' => 'https://example.com/images/cats', // 圖片網址 (可調整大小 240px, 300px, 460px, 700px, 1040px)
                 'altText' => 'Example imagemap', // 替代文字
                 'baseSize' => array(
                     'height' => 1040, // 圖片寬
