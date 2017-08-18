@@ -59,7 +59,7 @@ if (strtolower($message['text']) == "Command"){
                 'actions' => array(
                     array(
                         'type' => 'uri', // 類型 (網址)
-                        'linkUri' => 'https://www.grab.com', // 連結網址
+                        'linkUri' => 'https://github.com/GoneTone/line-example-bot-php', // 連結網址
                         'area' => array(
                             'x' => 0, // 點擊位置 X 軸
                             'y' => 0, // 點擊位置 Y 軸
