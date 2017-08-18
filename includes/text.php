@@ -25,20 +25,17 @@ if (strtolower($message['text']) == "ดี" || $message['text'] == "ดีค�
                 'type' => 'text', // 訊息類型 (文字)
                 'text' => 'สวัสดีค่ะ' // 回復訊息
             ),
-            array(
-                'type' => 'text', // 訊息類型 (文字)
-                'text' => 'สวัสดีค่ะ2' // 回復訊息
-            ),
-            
-             array(
-                            'type' => 'message', // 類型 (訊息)
-                            'label' => 'Message example', // 標籤 2
-                            'text' => 'Message example' // 用戶發送文字
-                        )
-            
+                      array(
+                'type' => 'image', // 訊息類型 (圖片)
+                'originalContentUrl' => 'https://api.reh.tw/line/bot/example/assets/images/example.jpg', // 回復圖片
+                'previewImageUrl' => 'https://api.reh.tw/line/bot/example/assets/images/example.jpg' // 回復的預覽圖片
+            )
+            )
             
             
         )  
+        
+        
         
     ));
 }
