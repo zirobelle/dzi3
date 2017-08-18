@@ -95,23 +95,13 @@ Hex : #009d3b
 
 ///////////////////  Greeting  /////////////////////
 
-if
-(strtolower($message['text']) == "ดี"
-
-|| $message['text'] == "ดีครับ" )
-|| $message['text'] == "Hello" )
-|| $message['text'] == "hello" )
-|| $message['text'] == "Hi" )
-|| $message['text'] == "hi" )
-|| $message['text'] == "ดีค่ะ" )
-
-{
+if (strtolower($message['text']) == "ดี" || $message['text'] == "ดีครับ" ){
     $client->replyMessage(array(
         'replyToken' => $event['replyToken'],
         'messages' => array(
             array(
-                'type' => 'text',
-                'text' => 'สวัสดีค่ะ 0x100005 '
+                'type' => 'text', 
+                'text' => 'สวัสดีค่ะ'
             )
         )
     ));
