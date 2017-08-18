@@ -17,19 +17,34 @@
 }
 ==============================
 */
-if (strtolower($message['text']) == "ดี" || $message['text'] == "ดีครับ" ){
+if 
+(strtolower($message['text']) == "Grab color"     
+|| $message['text'] == "Grab colors" 
+|| $message['text'] == "Grab Color"
+|| $message['text'] == "Grab Colors" 
+|| $message['text'] == "GrabColors"
+|| $message['text'] == "GrabColor"
+|| $message['text'] == "สีGrab"
+|| $message['text'] == "สี Grab"   
+   
+)
+{
     $client->replyMessage(array(
         'replyToken' => $event['replyToken'],
         'messages' => array(
             array(
-                'type' => 'text', // 訊息類型 (文字)
-                'text' => 'สวัสดีค่ะ 
-                ดิชั้นชื่อ xxxx' // 回復訊息
+                'type' => 'text',
+                'text' => 
+'รหัสสีเขียวของ Grab ได้แก่
+RGB : 0 157 59
+CMYK : 90 0 100 0
+Hex : #009d3b
+สามารถดูชุดสี Secondaryเพิ่มเติม ได้จากรูปด้านล่างนะคะ'
             ),
-                      array(
-                'type' => 'image', // 訊息類型 (圖片)
-                'originalContentUrl' => 'https://api.reh.tw/line/bot/example/assets/images/example.jpg', // 回復圖片
-                'previewImageUrl' => 'https://api.reh.tw/line/bot/example/assets/images/example.jpg' // 回復的預覽圖片
+            array(
+                'type' => 'image',
+                'originalContentUrl' => 'https://api.reh.tw/line/bot/example/assets/images/example.jpg',
+                'previewImageUrl' => 'https://api.reh.tw/line/bot/example/assets/images/example.jpg'
             )
             
             
