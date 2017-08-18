@@ -49,9 +49,7 @@ if
 /////////////////// Color /////////////////////
 
 if 
-(strtolower
-
-($message['text']) ==  "Grab Color"     
+(strtolower($message['text']) ==  "Grab Color"     
 || $message['text'] == "Grab Colors"
 || $message['text'] == "GrabColor" 
 || $message['text'] == "GrabColors" 
