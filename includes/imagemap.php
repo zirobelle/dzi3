@@ -44,7 +44,7 @@
 }
 ==============================
 */
-if (strtolower($message['text']) == "Command"){
+if (strtolower($message['text']) == "Command" || $message['text'] == "help me dzi") ){
     $client->replyMessage(array(
         'replyToken' => $event['replyToken'],
         'messages' => array(
