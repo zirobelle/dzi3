@@ -24,8 +24,33 @@ if
 || $message['text'] == "Grab Colors" 
 || $message['text'] == "GrabColors"
 || $message['text'] == "GrabColor"
+|| $message['text'] == "grab colors" 
+|| $message['text'] == "grab Color"
+|| $message['text'] == "grab Colors" 
+|| $message['text'] == "grabColors"
+|| $message['text'] == "grabColor"
+ 
+|| $message['text'] == "Grab colours" 
+|| $message['text'] == "Grab Colour"
+|| $message['text'] == "Grab Colours" 
+|| $message['text'] == "GrabColours"
+|| $message['text'] == "GrabColour"
+|| $message['text'] == "grab colours" 
+|| $message['text'] == "grab Colour"
+|| $message['text'] == "grab Colours" 
+|| $message['text'] == "grabColours"
+|| $message['text'] == "grabColour"
+ 
 || $message['text'] == "สีGrab"
-|| $message['text'] == "สี Grab"   
+|| $message['text'] == "สี grab"
+|| $message['text'] == "สีgrab"
+|| $message['text'] == "สี grab" 
+|| $message['text'] == "สี"
+|| $message['text'] == "color"
+|| $message['text'] == "colors"
+|| $message['text'] == "colour"
+|| $message['text'] == "colours"
+|| $message['text'] == "green" 
    
 )
 {
@@ -43,8 +68,8 @@ Hex : #009d3b
             ),
             array(
                 'type' => 'image',
-                'originalContentUrl' => 'https://api.reh.tw/line/bot/example/assets/images/example.jpg',
-                'previewImageUrl' => 'https://api.reh.tw/line/bot/example/assets/images/example.jpg'
+                'originalContentUrl' => 'https://gallery.mailchimp.com/0bbff1e4457f7e08892c68f1a/images/119d68eb-367f-4d33-aeb0-7e8e9cd192ad.png',
+                'previewImageUrl' => 'https://gallery.mailchimp.com/0bbff1e4457f7e08892c68f1a/images/119d68eb-367f-4d33-aeb0-7e8e9cd192ad.png'
             )
             
             
