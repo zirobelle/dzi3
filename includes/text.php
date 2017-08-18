@@ -18,31 +18,6 @@
 ==============================
 */
 
-///////////////////  Greeting  /////////////////////
-
-if (strtolower($message['text']) == "ดี" || $message['text'] == "ดีครับ" )
-
-|| $message['text'] == "สวัสดี" )
-|| $message['text'] == "hello" )
-|| $message['text'] == "Hello" )
-|| $message['text'] == "hi" )
-|| $message['text'] == "Hi" )
-
-
-
-{
-    $client->replyMessage(array(
-        'replyToken' => $event['replyToken'],
-        'messages' => array(
-            array(
-                'type' => 'text', 
-                'text' => 'สวัสดีค่ะ :)'
-            )
-        )
-    ));
-}
-
-
 /////////////////// Color /////////////////////
 
 if 
